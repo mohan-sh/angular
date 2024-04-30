@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    color: #fff; /* Text color of the navbar */
+    padding: 10px; /* Padding around the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items at the start and end */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .nav-links {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 15px; /* Add space between list items */
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+  }
+  
+  .nav-links li a {
+    color: #fff; /* Text color of the links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
